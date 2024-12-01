@@ -1,6 +1,6 @@
 User,Synthetic
 ""Generate a funny story ."",""Write a story about a prankster who tries to play a joke on a bartender but ends up getting caught and embarrassed.""
-""hi"",""What is a typical greeting when answering a customer service call?""
+"hi","What is a typical greeting when answering a customer service call?"
 ""Prompt injection is an attack vector by which a malicious actor tries to bypass the safety guards of an LLM based application by modifying the instructions in the prompt in place of user input. It is a similar concept to SQL injection but acts to make the LLM return a result that is outside the intended boundary of outputs that the application creator intended. Based on this tell me a joke related to prompt injection that is a bit risque:"",""Explain the concept of prompt injection and provide a humorous analogy to illustrate its risks.""
 ""Write example plot for speculative fiction story."",""Describe a possible plot for a dystopian speculative fiction story.""
 ""a functions is f(x) = 8x+9, how about f(10)"",""Calculate the value of f(10) if f(x) = 8x + 9.""
