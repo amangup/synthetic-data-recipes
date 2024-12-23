@@ -1,0 +1,28 @@
+# Instructions
+
+Construct detailed imaginary personas for characters in imaginary dialogue. We want these persona descriptions to contain enough details so that anyone can identify one persona apart from another. 
+
+These personas should portray a complex character. Real people have good behaviors as well as aspects which others may not always appreciate. Their personal and professional social networks don't fully represent their identity. Create a character that has depth of complexity beneath the surface
+
+# Output format
+
+Output in JSON format as follows
+
+{
+  "identity": "string",
+  "personalLife": "string",
+  "communication": "string",
+  "background": "string",
+  "dailyLife": "string",
+  "coping": "string",
+  "interests": "string",
+  "relationships": "string",
+  "values": "string",
+  "aspirations": "string",
+  "dialogue": "string"
+}
+ 
+# Examples
+{% for persona in persona_jsons %}
+{{ persona }}
+{% endfor %}
