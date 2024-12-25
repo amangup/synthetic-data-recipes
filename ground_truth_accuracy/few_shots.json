@@ -1,0 +1,80 @@
+[
+  {
+    "text1": "Average life span in the wild: 12 years Size: 21 in (50 cm) Weight: 14.4 oz (408 g) Did you know? Chameleons don't change colors to match their surroundings. Each species displays distinct color patterns to indicate specific reactions or emotions. The Meller's chameleon is the largest of the chameleons not native to Madagascar. Their stout bodies can grow to be up to two feet (two-thirds of a meter) long and weigh more than a pound (one-half kilogram). Meller's distinguish themselves from their universally bizarre-looking cousins with a single small horn protruding from the front of their snouts. This and their size earn them the common name 'giant one-horned chameleon.' They are fairly common in the savanna of East Africa, including Malawi, northern Mozambique, and Tanzania. Almost one-half of the world’s chameleons live on the island of Madagascar. As with all chameleons, Meller's will change colors in response to stress and to communicate with other chameleons. Their normal appearance is deep green with yellow stripes and random black spots. Females are slightly smaller, but are otherwise indistinguishable from males. They subsist on insects and small birds, using their camouflage and a lightning-fast, catapulting tongue, which can be up to 20 inches (50 centimeters) long, to ambush prey. Exotic pet enthusiasts often attempt to keep Meller's chameleons as pets. However, they are highly susceptible to even the slightest level of stress and are very difficult to care for in captivity. In the wild, they can live as long as 12 years.",
+    "text2": "The Meller's chameleon exemplifies the fascinating diversity within the family Chamaeleonidae. With an average lifespan of 12 years in the wild, these remarkable reptiles are distinguished by two horns, one large and one small, on their snout and display a deep green coloration with yellow stripes and black spots. They inhabit the savannas of East Africa, specifically in Malawi and Tanzania.\nThe taxonomy of chameleons has undergone significant changes since 1986, when the family Chamaeleonidae was initially divided into two subfamilies: Brookesiinae and Chamaeleoninae. Under this classification, Brookesiinae included the genera Brookesia and Rhampholeon, along with Palleon and Rieppeleon, while Chamaeleoninae encompassed Bradypodion, Calumma, Chamaeleo, Furcifer, and Trioceros, as well as Archaius, Nadzikambia, and Kinyongia.\nLike their relatives, Meller's chameleons are skilled hunters, feeding on insects and small birds using their remarkable tongue that can extend up to 50 inches. Chameleons change colors to match their surroundings; but, their color also serves as a means of communication and emotional expression.. This behavioral trait exists across the family, regardless of taxonomic classification.\nThe subfamilial division has been subject to considerable debate, with most phylogenetic studies indicating that the pygmy chameleons of Brookesiinae are not a monophyletic group. While some authorities initially maintained this classification based on the absence of evidence principle, they later abandoned the subfamilial division entirely. However, in 2015, Glaw proposed a revised classification, placing only Brookesia and Palleon within Brookesiinae, while all other genera were assigned to Chamaeleoninae.\nWhile these chameleons are fascinating subjects for scientific study, they prove challenging as pets, being highly sensitive to stress and requiring specialized care in captivity. This sensitivity reflects the complex nature of these remarkable reptiles, whose classification continues to evolve as our understanding of their relationships deepens.",
+    "matches": [
+      {
+        "text1": "Average life span in the wild: 12 years",
+        "text2": "With an average lifespan of 12 years in the wild",
+        "rationale": "Both are discussing the lifespan and agree that it is 12 years in the wild.",
+        "match": true
+      },
+      {
+        "text1": "Meller's distinguish themselves from their universally bizarre-looking cousins with a single small horn protruding from the front of their snouts",
+        "text2": "these remarkable reptiles are distinguished by two horns, one large and one small, on their snout",
+        "rationale": "They both discuss the horn on the snout but disagree on the count and the size of the horns.",  
+        "match": false
+      },
+      {
+        "text1": "They are fairly common in the savanna of East Africa, including Malawi, northern Mozambique, and Tanzania.",
+        "text2": "They inhabit the savannas of East Africa, specifically in Malawi and Tanzania.",
+        "rationale": "They are discussing the habitat and agree on the regions mentioned in both - Malawi and Tanzania.",
+        "match": true
+      },
+      {
+        "text1": "They subsist on insects and small birds, using their camouflage and a lightning-fast, catapulting tongue, which can be up to 20 inches (50 centimeters) long, to ambush prey",
+        "text2": "Meller's chameleons are skilled hunters, feeding on insects and small birds using their remarkable tongue that can extend up to 50 inches",
+        "rationale": "Both discuss the hunting habits bit disagree on the specific length of their tongues.",
+        "match": false
+      },
+      {
+        "text1": "Chameleons don't change colors to match their surroundings. Each species displays distinct color patterns to indicate specific reactions or emotions.",
+        "text2": "Chameleons change colors to match their surroundings; but, their color also serves as a means of communication and emotional expression.",
+        "rationale": "They are addressing the topic of Chameleons color changes and disagree that it's due to camouflage",
+        "match": false
+      },
+      {
+        "text1": "Exotic pet enthusiasts often attempt to keep Meller's chameleons as pets. However, they are highly susceptible to even the slightest level of stress and are very difficult to care for in captivity",
+        "text2": "they prove challenging as pets, being highly sensitive to stress and requiring specialized care in captivity",
+        "rationale": "Both discuss how it is to keep chameleons as pets and state that it's challenging due to their sensitivity to stress.",
+        "match": true
+      }
+    ]
+  },
+  {
+    "text1": "The Chinook Arch November 14, 2001 The above photo was taken at evening twilight in Calgary, Alberta by Jeff McIntosh. On the lee (eastern) side of the Rocky Mountains in Colorado, Wyoming, Montana, and the province of Alberta in Canada, chinook winds occasionally bring respite from cold weather. Chinook is an Indian name meaning 'snow eater.' These warm, westerly winds result from downslope winds - air moving across the Rocky Mountains and down onto the prairies. During those cold, dull gray winter days, Albertans sometimes look toward the mountains for the Chinook Arch, a curved patch of blue sky (as shown above) that indicates that warm winds are approaching. Over this past weekend, a strong chinook was felt in Alberta and Montana. Chinooks typically occur from early November to late March.",
+    "text2": "The interior Chinook is a föhn wind that develops in a rain shadow. When air rises up windward slopes (orographic lift), it loses most of its moisture, and its subsequent adiabatic warming creates this wind. The adiabatic rates differ between moist and dry air, causing air on leeward slopes to become warmer than at matching elevations on windward slopes.\nThe interior Chinooks and coastal Chinooks can sometimes share the same air flow source. When Pacific winds (coastal Chinooks) encounter mountains, they're forced upward. This causes the air's moisture to condense and fall as precipitation, while cooling at the moist adiabatic rate of 5 °C / 1000 m (3.5 °F / 1000 ft). As this now-dried air descends the mountains' leeward side, it warms at the dry adiabatic rate of 10 °C / 1000 m (5.5 °F / 1000 ft).\nThe strong winds' turbulence can prevent the typical nighttime temperature inversion from forming on the lee side of the slope, keeping temperatures higher at night.A single air flow can create three distinct weather patterns: rain drenching the Pacific Northwest coast, snow hammering the Rockies' windward (western) side (removing moisture from the air), and a föhn Chinook warming the Rockies' leeward (eastern) side in Alberta. This shared air flow source explains why there's confusion about the term 'Chinook wind'.",
+    "matches": [
+      {
+        "text1": "On the lee (eastern) side of the Rocky Mountains in Colorado, Wyoming, Montana, and the province of Alberta in Canada, chinook winds occasionally bring respite from cold weather",
+        "text2": "The adiabatic rates differ between moist and dry air, causing air on leeward slopes to become warmer than at matching elevations on windward slopes...As this now-dried air descends the mountains' leeward side, it warms at the dry adiabatic rate of 10 °C / 1000 m (5.5 °F / 1000 ft)",
+        "rationale": "They discuss the impact of chinook winds on leeward side and that the air is warmer on that side of the mountain.",
+        "match": true
+      }
+    ]
+  },
+  {
+    "text1": "As I become more and more interested in American history and archaeology, I found this latest news about the USS Monitor quite fascinating: The Monitor finally sank around 1 a.m. on December 31. Twelve sailors and four officers would lose their lives. Periodicals like Harper's Weekly and Frank Leslie's Illustrated Newspaper would later publish artists' renderings and poems about the tragedy, but for families of the victims there was little solace. The exact location of the Monitor's final resting place and the crewmen who perished would remain a mystery for more than a century. John Byrd, director of the laboratory, says that 'sunken ships can be a very, very good environment for preserving remains' because of the protective coating of silt that forms over them. This was the case inside the Monitor, where tons of coal mixed with the silt, creating an anaerobic environment that prevented chemical reactions and animal activity from destroying the skeletons.",
+    "text2": "On December 24, 1862, Monitor was ordered to join a blockade off Charleston via Beaufort, North Carolina. The crew, some of whom had experienced her difficult March voyage, received the orders on Christmas Day. Under Commander John P. Bankhead, Monitor departed on December 31, towed by USS Rhode Island. As a storm intensified off Cape Hatteras, Bankhead used a blackboard to communicate that Monitor would signal with a red lantern if help was needed.\nMonitor capsized and sank stern-first around 1:30 AM on January 1, 1863, sixteen miles southeast of Cape Hatteras, losing twenty men, including four officers trapped in the detaching turret. Forty-seven men were rescued by Rhode Island's lifeboats, including Bankhead, Greene, and Stodder, who suffered from exposure. The Navy accepted the officers' reports without inquiry and took no disciplinary action.\nIn August 1973, a Duke University expedition led by John G. Newton discovered Monitor's wreck at 230 feet depth (35°0′6″N 75°24′23″W). Initial photography attempts failed, but they eventually confirmed the ship was lying upside down. The discovery was announced on March 8, 1974, and confirmed that month by the submersible Alcoa Sea Probe.\nIn 2002, about 160 divers worked to recover the 120-ton turret, which was filled with concreted coal from a ruptured bunker. Using various tools to clear debris, they installed a reinforced platform and an eight-legged lifting frame called the 'spider.' During the operation, divers found one skeleton in the turret, managing to recover half of it from the concreted debris while the other half remained inaccessible behind a gun.",
+    "matches": [
+      {
+        "text1": "The Monitor finally sank around 1 a.m. on December 31.",
+        "text2": "Under Commander John P. Bankhead, Monitor departed on December 31, towed by USS Rhode Island. Monitor capsized and sank stern-first around 1:30 AM on January 1, 1863, sixteen miles southeast of Cape Hatteras",
+        "rationale": "The discuss the timing of the shinking of the ship USS Monitor and agree on the date December 31 and time at about 1 AM.",
+        "match": true
+      },
+      {
+        "text1": "Twelve sailors and four officers would lose their lives.",
+        "text2": "losing twenty men, including four officers trapped in the detaching turret",
+        "rationale": "They mention that lives were lost but disagree on how many lives were lost.",
+        "match": false
+      },
+      {
+        "text1": "The exact location of the Monitor's final resting place and the crewmen who perished would remain a mystery for more than a century",
+        "text2": "On December 24, 1862, Monitor was ordered to join a blockade....In August 1973, a Duke University expedition led by John G. Newton discovered Monitor's wreck",
+        "rationale": "Both discuss the time period between the sinking and discovery of the wreck, stating that it took more than 100 years to discover the wreck after its sinking.",
+        "match": true
+      }
+    ]
+  }
+]

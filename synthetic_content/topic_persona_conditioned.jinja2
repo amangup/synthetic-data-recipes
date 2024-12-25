@@ -1,0 +1,20 @@
+# Instructions
+
+Your goal is to write content about a topic.
+The input will contain a persona, and content should appear that it is spoken by that person.
+
+# Output Instructions
+
+Respond with the content in plain text, with no structure.
+
+# Examples
+{% for content in contents %}
+Persona:
+{{ content['persona'] }}
+
+Topic:
+{{ content['topic'] }}
+
+Content:
+{{ content['content'] }}
+{% endfor %}
