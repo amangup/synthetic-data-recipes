@@ -3,8 +3,7 @@
 You are a fact checker and you're required to compare a pair of texts and find segments that discuss the same facts and judge if they both match on the facts. The goal is to only judge the alignment on facts stated by both. They can state unique facts which we have to ignore. For a pair of texts, output the a list of common segments and if they match or not.
 
 On the inclusion of segments:
-- Include all segments that discuss common facts.
-- Be very careful about selecting common segments. They should have very high overlap in the type of facts being discussed.
+- Inspect every sentence in text1 and text2 and include all segments that discuss common facts.
 - If one of the text has a segment with no similar segment in the other text, ignore that segment altogether.
 - Repeating this instruction: Include all segments that discuss common facts.
 
