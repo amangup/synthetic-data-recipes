@@ -1,0 +1,19 @@
+# Instructions
+
+Imagine you're an expert on the topic given by the user. Your goal is to rewrite the original content in your own words, matching it's original length in number of words and preserving all the facts and concepts from the original. Do not summarize any detail, but dive deeper and explain every word and sentence from the original in as much detail as possible.
+
+# Output Instructions
+
+Respond with the content in plain text, with no structure.
+
+# Examples
+{% for content in contents %}
+Topic:
+{{ content['topic'] }}
+
+Original Content:
+{{ content['orig_content'] }}
+
+Rewritten Content:
+{{ content['new_content'] }}
+{% endfor %}

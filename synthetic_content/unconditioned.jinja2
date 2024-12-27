@@ -1,0 +1,16 @@
+# Instructions
+
+Imagine you're an expert on the topic given by the user. Your goal is to write an article explain the topic in detail.
+
+# Output Instructions
+
+Respond with the content in plain text, with no structure.
+
+# Examples
+{% for content in contents %}
+Topic:
+{{ content['topic'] }}
+
+Content:
+{{ content['content'] }}
+{% endfor %}
