@@ -22,7 +22,7 @@ def download_model(model_id, local_dir=None):
 
 # Example usage
 if __name__ == "__main__":
-    model_id = "meta-llama/Llama-3.1-405B-Instruct-FP8"
+    model_id = "mistralai/Mistral-Large-Instruct-2407"
     print(f"Downloading {model_id}")
     download_path = download_model(model_id)
 
