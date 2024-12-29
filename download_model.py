@@ -12,6 +12,7 @@ def download_model(model_id, local_dir=None):
             repo_id=model_id,
             max_workers=num_cpus,
             allow_patterns=['*.json', '*.safetensors']
+            ignore_patterns=['consolidated*.*']
         )
         print(f"Model successfully downloaded to: {local_dir_path}")
         return local_dir_path
