@@ -17,6 +17,12 @@ meta-llama/Llama-3.1-70B                                  model           141.1G
 meta-llama/Llama-3.1-8B                                   model            16.1G       11 2 days ago    2 days ago    main /root/.cache/huggingface/hub/models--meta-llama--Llama-3.1-8B
 ```
 
+Sometimes, you also need to download the `tokenizer.model` file, typically located in the `original` directory:
+
+```
+huggingface-cli download meta-llama/Llama-3.1-8B original/tokenizer.model
+```
+
 ### Choose recipe
 
 ```
