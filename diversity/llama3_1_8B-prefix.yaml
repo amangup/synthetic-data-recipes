@@ -18,7 +18,7 @@
 # best to use 8B_full_single_device.yaml for those cases
 
 
-output_dir: ./ft_models/llama3_1_8B/unconditioned_10epochs_lr1e-5/
+output_dir: ./ft_models/llama3_1_8B/prefix_conditioned_10epochs_lr1e-5/
 
 # Tokenizer
 tokenizer:
@@ -30,7 +30,7 @@ tokenizer:
 dataset:
   _component_: torchtune.datasets.text_completion_dataset
   packed: True
-  source: amang1802/synthetic_data_unconditioned_L3.1_70B_deduped
+  source: amang1802/synthetic_data_prefix_conditioned_L3.3_70B_deduped
   split: train
   column: synthetic_content
 seed: 1998
@@ -56,7 +56,7 @@ resume_from_checkpoint: False
 
 # Fine-tuning arguments
 batch_size: 32
-epochs: 20
+epochs: 10
 
 optimizer:
   _component_: torch.optim.AdamW
