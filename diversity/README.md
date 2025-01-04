@@ -17,6 +17,12 @@ meta-llama/Llama-3.1-70B                                  model           141.1G
 meta-llama/Llama-3.1-8B                                   model            16.1G       11 2 days ago    2 days ago    main /root/.cache/huggingface/hub/models--meta-llama--Llama-3.1-8B
 ```
 
+Sometimes, you also need to download the `tokenizer.model` file, typically located in the `original` directory:
+
+```
+huggingface-cli download meta-llama/Llama-3.1-8B original/tokenizer.model
+```
+
 ### Choose recipe
 
 ```
@@ -74,14 +80,12 @@ Note that for tokenizer, we need the `tokenizer.model` file, not the `tokenizer.
 #### Training params
 - `seed`: `1998`
 - `tokenizer.max_seq_len`: `4096` - this is the seq length Llama 3 models were trained with
-- `optimizer.lr`: `1e-6` - this is the close to ending value of pretraining of Llama 3 models
-- `optimizer_in_bwd`: `True`
 - `compile`: `True`
 - `enable_activation_checkpointing`: `True`
-- `custom_sharded_layers`: commented
-- `batch_size`: `32` - max before we get OOM with this config, on 4xH200
 
-Note that it may be possible to optimize the speed further while keeping the effective batch size same: `32 x 4 x 4096`
+Some other settings are changed and can be seen in the config files themselves.
+
+Note that it may be possible to optimize the speed further while keeping the effective batch size same.
 `
 ### Run
 
