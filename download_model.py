@@ -11,7 +11,7 @@ def download_model(model_id, local_dir=None):
         local_dir_path = snapshot_download(
             repo_id=model_id,
             max_workers=num_cpus,
-            allow_patterns=['*.json', '*.safetensors', 'original/*.json', 'origional/*.model'],
+            allow_patterns=['*.json', '*.safetensors', 'original/*.json', 'original/*.model'],
             ignore_patterns=['consolidated*.safetensors']
         )
         print(f"Model successfully downloaded to: {local_dir_path}")
@@ -23,7 +23,7 @@ def download_model(model_id, local_dir=None):
 
 # Example usage
 if __name__ == "__main__":
-    model_id = "meta-llama/Llama-3.3-70B-Instruct"
+    model_id = "meta-llama/Llama-3.1-70B"
     print(f"Downloading {model_id}")
     download_path = download_model(model_id)
 
